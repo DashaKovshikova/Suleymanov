@@ -1,0 +1,275 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+@font-face {
+  font-family: 'Proxima Nova Condensed';
+  src: local('Proxima Nova Condensed Bold'), local('Proxima-Nova-Condensed-Bold'), url('ProximaNovaCond-Bold.woff2') format('woff2'), url('ProximaNovaCond-Bold.woff') format('woff'), url('ProximaNovaCond-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poiret One';
+  src: local('Poiret One Regular'), local('Poiret-One-Regular'), url('PoiretOne-Regular.woff2') format('woff2'), url('PoiretOne-Regular.woff') format('woff'), url('PoiretOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  color: white;
+  background: url('img/mainpich.jpg') no-repeat;
+  background-size: cover;
+  font-family: Proxima Nova Condensed;
+}
+body div.wrapper {
+  width: 960px;
+  margin: 70px 150px;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+  align-items: center;
+}
+body header div.name {
+  font-weight: 900;
+  line-height: 1.2;
+  display: flex;
+}
+body header div.name div.logo {
+  margin-right: 45px;
+}
+body header div.name div.logo img {
+  width: 150%;
+}
+body header div.name div.namme_name div.namme {
+  font-size: 36.6px;
+}
+body header div.name div.namme_name div.DescrForName {
+  font-size: 19.9px;
+}
+body header div.phone {
+  font-size: 29.6px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #ffffff;
+}
+body section.maincontent {
+  margin-left: 60px;
+}
+body section.maincontent div.title {
+  display: flex;
+  position: relative;
+}
+body section.maincontent div.title div.one {
+  font-size: 105px;
+  line-height: 1;
+  font-weight: 900;
+  color: #ffffff;
+  width: 472px;
+  height: 343px;
+}
+body section.maincontent div.title div.two {
+  font-size: 31px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #ffffff;
+  width: 364px;
+  position: absolute;
+  top: 228px;
+  left: 227px;
+}
+body section.maincontent div.decrfortitle div.parthone {
+  font-size: 23.4px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+body section.maincontent div.decrfortitle div.parthtwo {
+  font-size: 21.9px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+body footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+body footer div.btns {
+  display: flex;
+}
+body footer div.btns div.btn_1 {
+  width: 233px;
+  height: 37px;
+  background-color: #fafafa;
+  transform: skewX(-15deg);
+  text-align: center;
+  line-height: 37px;
+  justify-content: center;
+}
+body footer div.btns div.btn_1 a.prognoz {
+  font-size: 13.5px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #4d0916;
+  text-decoration: none;
+}
+body footer div.btns div.btn_2 {
+  width: 206px;
+  height: 37px;
+  background-color: #fe9800;
+  transform: skewX(-15deg);
+  text-align: center;
+  line-height: 37px;
+  justify-content: center;
+}
+body footer div.btns div.btn_2 a.consult {
+  font-size: 13.5px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #4d0916;
+  text-decoration: none;
+}
+body footer div.auth {
+  position: relative;
+  left: 230px;
+}
+body footer div.auth p.one {
+  font-family: Poiret One;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+body footer div.auth p.two {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #ffffff;
+}
